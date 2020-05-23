@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: makhnnar.github.io
+Token: fa9e489dc573e0008110e0377e8fe43340d6c1184b818624d47a396909f64090
