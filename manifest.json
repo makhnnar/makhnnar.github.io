@@ -1,6 +1,6 @@
 {
-  "short_name": "El Blog de Pedro",
-  "name": "Un simple blog en Kotlin React",
+  "short_name": "React Kotlin App",
+  "name": "Create React Kotlin App Sample",
   "icons": [
     {
       "src": "favicon.ico",
