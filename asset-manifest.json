@@ -1,12 +1,20 @@
 {
-  "main.css": "./static/css/main.6a669f97.css",
-  "main.js": "./static/js/main.14dec2f2.js",
-  "main.css.map": "./static/css/main.6a669f97.css.map",
-  "main.js.map": "./static/js/main.14dec2f2.js.map",
-  "index.html": "./index.html",
-  "static/media/icons8-github.svg": "./static/media/icons8-github.b057daca.svg",
-  "static/media/icons8-icons8.svg": "./static/media/icons8-icons8.a620d900.svg",
-  "static/media/icons8-linkedin-out.svg": "./static/media/icons8-linkedin-out.6bc6954b.svg",
-  "static/media/icons8-twitter.svg": "./static/media/icons8-twitter.f5f396b8.svg",
-  "static/media/photo-profile.jpg": "./static/media/photo-profile.88fc6ab8.jpg"
+  "files": {
+    "main.css": "./static/css/main.cef4d2a5.css",
+    "main.js": "./static/js/main.e775451d.js",
+    "static/js/453.dd992a58.chunk.js": "./static/js/453.dd992a58.chunk.js",
+    "static/media/good-dev-practices.md": "./static/media/good-dev-practices.b7c63be0ea1109de641d.md",
+    "static/media/profile.md": "./static/media/profile.25461d1a864e446e37fa.md",
+    "static/media/declarative-ui-android.md": "./static/media/declarative-ui-android.234932c8d8c7ea8c4a89.md",
+    "static/media/how-i-became.md": "./static/media/how-i-became.7bfd0b985e35d06999f1.md",
+    "static/media/hiring-experiences.md": "./static/media/hiring-experiences.c738722c4639576ba436.md",
+    "index.html": "./index.html",
+    "main.cef4d2a5.css.map": "./static/css/main.cef4d2a5.css.map",
+    "main.e775451d.js.map": "./static/js/main.e775451d.js.map",
+    "453.dd992a58.chunk.js.map": "./static/js/453.dd992a58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cef4d2a5.css",
+    "static/js/main.e775451d.js"
+  ]
 }
