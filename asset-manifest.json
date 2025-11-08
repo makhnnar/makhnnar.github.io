@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.b41de4af.css",
-    "main.js": "/static/js/main.d8d1e818.js",
+    "main.js": "/static/js/main.6e5a6b47.js",
     "static/js/453.dd992a58.chunk.js": "/static/js/453.dd992a58.chunk.js",
-    "static/media/gooddevpractices.md": "/static/media/gooddevpractices.b7c63be0ea1109de641d.md",
-    "static/media/profile.md": "/static/media/profile.25461d1a864e446e37fa.md",
-    "static/media/declarativeuiandroid.md": "/static/media/declarativeuiandroid.234932c8d8c7ea8c4a89.md",
-    "static/media/howibecame.md": "/static/media/howibecame.ea6b3e5cd07c24883596.md",
-    "static/media/hiringexperiences.md": "/static/media/hiringexperiences.c738722c4639576ba436.md",
+    "static/media/gooddevpractices.md": "/static/media/gooddevpractices.993b7b43f3ebce70fb16.md",
+    "static/media/profile.md": "/static/media/profile.42c726ad1b2efada6d9a.md",
+    "static/media/declarativeuiandroid.md": "/static/media/declarativeuiandroid.c530a828b4b379175726.md",
+    "static/media/howibecame.md": "/static/media/howibecame.7bfd0b985e35d06999f1.md",
+    "static/media/hiringexperiences.md": "/static/media/hiringexperiences.1e1625eed9609b40d409.md",
     "index.html": "/index.html",
     "main.b41de4af.css.map": "/static/css/main.b41de4af.css.map",
-    "main.d8d1e818.js.map": "/static/js/main.d8d1e818.js.map",
+    "main.6e5a6b47.js.map": "/static/js/main.6e5a6b47.js.map",
     "453.dd992a58.chunk.js.map": "/static/js/453.dd992a58.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b41de4af.css",
-    "static/js/main.d8d1e818.js"
+    "static/js/main.6e5a6b47.js"
   ]
 }
