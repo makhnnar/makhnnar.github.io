@@ -1,0 +1,25 @@
+.socialGroupButtons {
+    display: flex;
+    flex: 1 1;
+    list-style: none;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.socialGroupButtons li{
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0
+}
+
+.socialGroupButtons li a{
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0
+}

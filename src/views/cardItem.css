@@ -1,0 +1,51 @@
+.horizontal-card-root {
+    display: flex; 
+    height: 200px;
+    width: 100%;
+    max-width: 600px;
+    /* Default shadow and transition */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); /* A mild initial shadow (MUI's default shadow: 2) */
+    transition: all 0.3s ease-in-out;
+    margin: 20px auto; 
+    flex-direction: row;
+}
+
+.horizontal-card-root:hover {
+    /* Increase elevation/shadow on hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2) !important; 
+    /* Slightly enlarge the card */
+    transform: scale(1.02);
+}
+
+.horizontal-card-media {
+    flex: 1;
+    aspect-ratio:  3/2;
+}
+
+.horizontal-card-content-box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.horizontal-card-content {
+    flex-grow: 1;
+    flex-direction: column;
+    padding-bottom: 0 !important;
+}
+
+.horizontal-card-description {
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .horizontal-card-root {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .horizontal-card-media {
+        width: 100%;
+        aspect-ratio:  16/9;
+    }
+}

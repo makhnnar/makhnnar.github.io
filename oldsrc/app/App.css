@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  text-align: center;
+  min-height: 100vh;
+  max-width: 100vw;
+  /*this is for hide extra space at right*/
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}

@@ -1,0 +1,98 @@
+.itemListPost{
+
+    content: "";
+
+    display:flex;
+    padding: 30px;
+
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+
+    overflow: hidden;
+  
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    
+    background-color: #f5f5f5;
+    color: #000000;
+    
+    transition: background-color .3s;
+    
+}
+
+/* mobile devices*/
+@media only screen and (min-width : 300px) {
+    .itemListPost{ width: 100%; }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 600px) {
+    .itemListPost{ width: 50%; }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 700px) {
+    .itemListPost{ width: 25%; }
+}
+
+.itemListPost:hover, .itemListPost:focus {
+    background-color: #e0e0e0;
+}
+
+.itemListPost:before {
+    content: "";
+
+    position: absolute;
+
+    width: 0%;
+    height: 0%;
+    max-width: 25%;
+    max-height: 10%;
+      
+    border-radius: 10%;
+    
+    background-color: rgba(236, 240, 241, .3);
+}
+  
+.itemListPost:active:before {
+    width: 50%;
+    padding-top: 40%;
+    transition: width .2s ease-out, padding-top .2s ease-out;
+}
+  
+/* Styles, not important */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.titlePhotoItemListPost{
+    position: relative;
+    overflow: hidden;
+    height: 50%;
+    width: 100%;
+}
+
+
+#imgItemListPost{
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    opacity: 0.5;
+}
+
+.titleItemListPost{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.descriptionItemListPost{
+    font-size: medium;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 16px;
+}

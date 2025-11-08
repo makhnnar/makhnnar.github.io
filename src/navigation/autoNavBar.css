@@ -1,0 +1,106 @@
+/* * Main container for the navigation.
+ * Replaces the Box 'sx' prop.
+ */
+.auto-navbar {
+  /* Layout & Sticking */
+  position: sticky;
+  top: 1.5rem;
+  align-self: flex-start;
+  width: 240px;
+  max-height: calc(100vh - 3rem);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  /* Theming (from your original file + MUI defaults) */
+  /* theme.spacing(2) -> 16px */
+  padding: 16px; 
+  background-color: #f4f4f4; 
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+
+  /* Key Requirement: Left border */
+  /* theme.palette.divider -> rgba(0, 0, 0, 0.12) */
+  border-left: 2px solid rgba(0, 0, 0, 0.12); 
+}
+
+/* * Title ("On this page")
+ * Replaces the Typography 'sx' prop.
+ */
+.auto-navbar-title {
+  /* We target the MUI class to override typography defaults */
+  &.MuiTypography-root {
+    margin-top: 0;
+    /* theme.spacing(1.5) -> 12px */
+    margin-bottom: 12px; 
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+}
+
+/* * List container (ul)
+ * Replaces the List 'sx' prop.
+ */
+.auto-navbar-list {
+  /* We target the MUI class to override list defaults */
+  &.MuiList-root {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* * List item (li)
+ * Replaces the ListItem 'sx' prop.
+ * Note: Dynamic padding-left is handled inline.
+ */
+.auto-navbar-item {
+  /* We target the MUI class to override list item defaults */
+  &.MuiListItem-root {
+    margin: 0.4rem 0;
+    line-height: 1.3;
+    /* disablePadding from component removes default padding */
+  }
+}
+
+/* * Link (a)
+ * Replaces the Link 'sx' prop and original file styles.
+ */
+.auto-navbar-link {
+  /* We target the MUI class to override link defaults */
+  &.MuiLink-root {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #333; /* Default link color */
+    transition: color 0.2s ease;
+  }
+}
+
+/* Hover/Focus state */
+.auto-navbar-link.MuiLink-root:hover,
+.auto-navbar-link.MuiLink-root:focus {
+  color: #007bff; /* Hover color */
+  text-decoration: underline;
+}
+
+/* * Dynamic Level Styles
+ * From your original CSS file.
+ */
+.auto-navbar-link.level-H1.MuiLink-root {
+  font-weight: bold;
+  color: #000;
+}
+
+.auto-navbar-link.level-H2.MuiLink-root {
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .auto-navbar {
+    
+    width: 0%;
+    max-height: none;
+    border-left: none;
+    box-shadow: none;
+    padding: 0px;
+  }
+}

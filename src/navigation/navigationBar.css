@@ -1,0 +1,17 @@
+.navToolBar { 
+    display: 'flex';
+    flex-direction: row;
+    align-items: 'center'; 
+    justify-content: 'center';
+    gap: '20px'; 
+    padding: '10px'; 
+    border-bottom: '1px solid #ccc';
+}
+
+.topBarTitle {
+  flex-grow: 1;
+}
+
+.navButtonContainer > .MuiButton-root {
+  margin-left: 8px;
+}

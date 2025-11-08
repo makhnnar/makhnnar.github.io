@@ -1,0 +1,12 @@
+.homePostContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 600px) {
+    .homePostContainer {
+        padding: 10px;
+    }
+}
