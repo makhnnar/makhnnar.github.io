@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
 import { Link } from "react-router-dom";
 
@@ -6,8 +6,32 @@ import "./navigationBar.css";
 
 type SelectedButton = 'post' | 'myCV' | 'littleProjects';
 
+const pathToSelected: { [key: string]: SelectedButton } = {
+  '/myCV': 'myCV',
+  '/littleProjects': 'littleProjects',
+};
+
+const getSelectedFromPath = (
+  path:string,
+  selected:string,
+  setSelected: (value: SelectedButton) => void
+) => {
+  const checkedPath = pathToSelected[path] || 'post'
+  if(checkedPath===selected) return;
+  setSelected(checkedPath);
+}
+
 export const NavigationBar = () => {
   const [selected, setSelected] = useState<SelectedButton>('post');
+
+  useEffect(() => {
+    getSelectedFromPath(
+      window.location.pathname,
+      selected, 
+      setSelected
+    );
+  }, [selected]);
+
   return (
     <AppBar position="static">
       <Toolbar>
