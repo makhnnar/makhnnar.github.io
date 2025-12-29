@@ -4,6 +4,7 @@ import profile from "./profile.md";
 import post2 from "./gooddevpractices.md";
 import post3 from "./declarativeuiandroid.md";
 import post4 from "./hiringexperiences.md";
+import post5 from "./asoftwareengineer.md";
 
 export const postsMap: Record<string, string> = {
     "how-i-became": post1,
@@ -11,6 +12,7 @@ export const postsMap: Record<string, string> = {
     "good-dev-practices": post2,
     "declarative-ui-android": post3,
     "hiring-experiences": post4,
+    "a-software-engineer": post5,
 };
 
 const softEng = {
@@ -41,4 +43,11 @@ const hiringExp = {
     route: "/post/hiring-experiences"
 };
 
-export const posts = [softEng, goodPracts, declarativeUI, hiringExp];
+const asoftwareengineer = {
+    title: "What means to be a software engineer?",
+    description: "A reflection on the role and responsibilities of a software engineer",
+    imageUrl: "/softwareengineers.jpg",
+    route: "/post/a-software-engineer"
+};
+
+export const posts = [softEng, goodPracts, declarativeUI, hiringExp, asoftwareengineer];
